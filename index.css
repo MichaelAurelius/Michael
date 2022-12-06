@@ -1,0 +1,253 @@
+.styel {
+  position: relative;
+  background: #ffffff;
+  width: 1500px;
+  height: 1000px;
+  margin: 0px 70px auto;
+}
+.head {
+  display: -webkit-box;
+
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 43px auto;
+  width: 1360px;
+  max-height: 80px;
+  box-sizing: border-box;
+  position: relative;
+}
+.head__name {
+  width: 144px;
+  height: 36px;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 36px;
+  color: #0b0614;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 25px;
+}
+
+.head__name-search {
+  width: 58px;
+  height: 20px;
+  position: relative;
+  left: 40px;
+  top: -15px;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(11, 6, 20, 0.3);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border: none;
+}
+
+.navigation {
+  margin-top: 25px;
+  margin-left: 317px;
+}
+.a {
+  width: 48px;
+  height: 20px;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  margin-left: 40px;
+  color: #0b0614;
+  opacity: 0.8;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.btn_head {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+  gap: 10px;
+  width: 126px;
+  height: 62px;
+  background: #ff5029;
+  border-radius: 12px;
+  flex: none;
+  order: 5;
+  flex-grow: 0;
+}
+.btn_word {
+  justify-content: center;
+  align-items: center;
+  width: 126px;
+  height: 62px;
+  color: #ffffff;
+  font-family: "Mont";
+  font-weight: 700;
+  font-size: 17px;
+  font-style: normal;
+  background: #ff5029;
+  border-radius: 12px;
+  border: 0px;
+  position: relative;
+  left: 40px;
+  top: 0px;
+}
+.photo_safari {
+  position: absolute;
+  width: 1360px;
+  height: 740px;
+  left: -88px;
+  top: 122px;
+}
+.feature_selection {
+  display: -webkit-box;
+  position: absolute;
+  width: 1240px;
+  height: 128px;
+  left: 20px;
+  top: 798px;
+  background: #ffffff;
+  box-shadow: 0px 30px 60px rgba(198, 191, 191, 0.18);
+  border-radius: 24px;
+}
+.feature_selection-gender {
+  width: 61px;
+  height: 20px;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 40px;
+  color: #847d8c;
+}
+.feature_selection-gender-male {
+  color: #0b0614;
+  border: none;
+  width: 143px;
+}
+.feature_selection-age {
+  width: 61px;
+  height: 20px;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 40px;
+  color: #847d8c;
+}
+.feature_selection-age-age {
+  color: #0b0614;
+  border: none;
+  width: 143px;
+}
+.feature_selection-language {
+  width: 61px;
+  height: 20px;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 40px;
+  color: #847d8c;
+}
+.feature_selection-language-language {
+  color: #0b0614;
+  position: absolute;
+  border: none;
+  width: 143px;
+}
+.feature_selection-localisation {
+  width: 61px;
+  height: 20px;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 40px;
+  color: #847d8c;
+}
+.feature_selection-localisation-localisation {
+  color: #0b0614;
+  border: none;
+  width: 143px;
+}
+.vl {
+  border-left: 1px solid #0b0614;
+  height: 30px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+.feature_selection-btn {
+  position: absolute;
+  width: 135px;
+  height: 80px;
+  left: 1015px;
+  top: 25px;
+  border: none;
+  background: #ff5029;
+  border-radius: 16px;
+
+  color: #ffffff;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+
+  text-align: center;
+}
+.greetings {
+  position: relative;
+  top: 1000px;
+  width: 488px;
+  height: 70px;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 70px;
+  color: #0b0614;
+  order: 0;
+  flex-grow: 0;
+}
+.greetings-btn {
+  position: relative;
+  top: 878px;
+  left: 1046px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  gap: 10px;
+  border: none;
+
+  width: 209px;
+  height: 70px;
+
+  background: #ff5029;
+  border-radius: 12px;
+  color: #ffffff;
+  font-family: "Mont";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+
+
+  text-align: center;
+}
+}
