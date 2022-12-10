@@ -1,23 +1,28 @@
+@font-face {
+  font-family: "Mont";
+  src: url('./fonts/Mont/mont_extralightdemo.ttf');
+}
 .styel {
-  position: relative;
+
   background: #ffffff;
-  width: 1500px;
-  height: 1000px;
-  margin: 0px 70px auto;
+  max-width: 1400px;
+  background: aqua;
+  margin:  auto ;
+  margin-left: auto;
+
 }
 .head {
+  width: 1160px;
+  height: 62px;
   display: -webkit-box;
-
   align-items: center;
   justify-content: space-between;
-  padding: 0;
-  margin: 43px auto;
-  width: 1360px;
-  max-height: 80px;
-  box-sizing: border-box;
-  position: relative;
+  margin: 43px 130px;
+
 }
 .head__name {
+  position: relative;
+    top: -10px;
   width: 144px;
   height: 36px;
   font-family: "Mont";
@@ -29,7 +34,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .head__name-search {
@@ -37,7 +42,7 @@
   height: 20px;
   position: relative;
   left: 40px;
-  top: -15px;
+  top: -25px;
   font-family: "Mont";
   font-style: normal;
   font-weight: 700;
@@ -52,7 +57,7 @@
 
 .navigation {
   margin-top: 25px;
-  margin-left: 317px;
+  margin-left: 200px;
 }
 .a {
   width: 48px;
@@ -84,41 +89,41 @@
   flex: none;
   order: 5;
   flex-grow: 0;
+  font-family: 'Mont';
 }
 .btn_word {
-  justify-content: center;
-  align-items: center;
   width: 126px;
   height: 62px;
   color: #ffffff;
   font-family: "Mont";
-  font-weight: 700;
+  margin-left: 70px;
   font-size: 17px;
-  font-style: normal;
+position: relative;
   background: #ff5029;
   border-radius: 12px;
   border: 0px;
-  position: relative;
-  left: 40px;
-  top: 0px;
+
 }
 .photo_safari {
-  position: absolute;
-  width: 1360px;
+
+  width: 1260px;
   height: 740px;
-  left: -88px;
-  top: 122px;
+  align-items: center;
+
+  margin: 0px 70px; 
 }
 .feature_selection {
   display: -webkit-box;
-  position: absolute;
-  width: 1240px;
+  position: relative;
+
+  width: 1140px;
   height: 128px;
-  left: 20px;
-  top: 798px;
+  left: 130px;
+top: -70px;
   background: #ffffff;
   box-shadow: 0px 30px 60px rgba(198, 191, 191, 0.18);
   border-radius: 24px;
+
 }
 .feature_selection-gender {
   width: 61px;
@@ -151,6 +156,7 @@
   color: #0b0614;
   border: none;
   width: 143px;
+  background: none;
 }
 .feature_selection-language {
   width: 61px;
@@ -195,7 +201,7 @@
   position: absolute;
   width: 135px;
   height: 80px;
-  left: 1015px;
+  left: 970px;
   top: 25px;
   border: none;
   background: #ff5029;
@@ -211,33 +217,23 @@
   text-align: center;
 }
 .greetings {
-  position: relative;
-  top: 1000px;
-  width: 488px;
-  height: 70px;
+
   font-family: "Mont";
-  font-style: normal;
-  font-weight: 800;
+
   font-size: 64px;
   line-height: 70px;
   color: #0b0614;
-  order: 0;
-  flex-grow: 0;
+
+  margin-left: 130px;
 }
 .greetings-btn {
   position: relative;
-  top: 878px;
-  left: 1046px;
+  top: -123px;
+  left: 1060px;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 40px;
-  gap: 10px;
   border: none;
-
   width: 209px;
   height: 70px;
-
   background: #ff5029;
   border-radius: 12px;
   color: #ffffff;
@@ -247,7 +243,99 @@
   font-size: 20px;
   line-height: 26px;
 
-
-  text-align: center;
 }
+.review{
+  margin: 130px;
+  display:flex;
+  gap: 31px;
+}
+.review_abubakar{
+  border: none;
+  width: 265px;
+  height: 396px;
+  left: 130px;
+  top: -70px;
+  background: #ffffff;
+  box-shadow: 0px 30px 60px rgb(198 191 191 / 18%);
+  border-radius: 24px;
+}
+.review_abubakar:hover{
+  background: #ff5029;
+
+}
+.review_ibra:hover{
+  background: #ff5029;
+
+}.review_lilia:hover{
+  background: #ff5029;
+
+}.review_tamara:hover{
+  background: #ff5029;
+
+}
+.review_1{
+  position: relative;
+  margin: 31px 40px;
+  top: -74px;
+  left: -5px;
+  border-radius: 90px;
+  border: none;
+
+}
+.review_ibra{
+  border: none;
+
+  width: 265px;
+  height: 396px;
+  left: 130px;
+  top: -70px;
+  background: #ffffff;
+  box-shadow: 0px 30px 60px rgb(198 191 191 / 18%);
+  border-radius: 24px;
+}
+.review_2{
+  margin: 31px 40px;
+  position: relative;
+  top: -74px;
+  left: -5px;
+  border-radius: 90px;
+
+}
+.review_lilia{
+  border: none;
+
+  width: 265px;
+  height: 396px;
+  left: 130px;
+  top: -70px;
+  background: #ffffff;
+  box-shadow: 0px 30px 60px rgb(198 191 191 / 18%);
+  border-radius: 24px;
+}
+.review_3{
+  margin: 31px 40px;
+  position: relative;
+  top: -74px;
+  left: -5px;
+  border-radius: 90px;
+
+}
+.review_tamara{
+  border: none;
+
+  width: 265px;
+  height: 396px;
+  left: 130px;
+  top: -70px;
+  background: #ffffff;
+  box-shadow: 0px 30px 60px rgb(198 191 191 / 18%);
+  border-radius: 24px;
+}
+.review_4{
+  margin: 31px 40px;
+  position: relative;
+  top: -74px;
+  left: -5px;
+  border-radius: 90px;
+
 }
